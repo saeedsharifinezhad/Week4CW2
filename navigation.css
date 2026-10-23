@@ -1,0 +1,25 @@
+.bottom-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 0;
+}
+
+.icon-middle{
+    width: 18px;
+    height: 18px;
+}
+
+.middle-button {
+    padding: 13px 38px;
+    border-radius: 55px;
+    background: linear-gradient(90deg, #FF00D6, #FF4D00);
+}
+
+
+
+.bottom-line {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+}
