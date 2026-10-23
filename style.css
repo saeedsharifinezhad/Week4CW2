@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    margin: 0 auto;
+}
+
+/* .page-header{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.page-content {
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.discover {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.discover-title {
+    font-family: Comfortaa;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.discover-text {
+    margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.profile-image {
+    width: 28px;
+    height: 28px;
+}
+
+.profile-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.profile-id {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.browse-all {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.browse-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.browse-image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    gap: 9px;
+}
+
+.gallery-column1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gallery-column2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.see-more {
+    display: flex;
+}
+
+.more-link {
+    width: 100%;
+    text-align: center;
+    padding: 19px auto;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+    border-radius: 6px;
+}
+
+.bottom-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 0;
+}
+
+.icon-middle{
+    width: 18px;
+    height: 18px;
+}
+
+.middle-button {
+    padding: 13px 38px;
+    border-radius: 55px;
+    background: linear-gradient(90deg, #FF00D6, #FF4D00);
+}
+
+
+
+.bottom-line {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+}
