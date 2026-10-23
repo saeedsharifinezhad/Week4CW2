@@ -1,0 +1,137 @@
+@font-face {
+    font-family: Roboto;
+    src: url("assets/roboto-regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("assets/roboto-bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #000;
+    background: #fff;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+button {
+    padding: 0;
+    border: 0;
+    color: inherit;
+    background: transparent;
+    font: inherit;
+    cursor: pointer;
+}
+
+button:focus-visible {
+    outline: 2px solid #b80073;
+    outline-offset: -3px;
+}
+
+img {
+    display: block;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 375px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.header {
+    box-shadow: 0 0.5px 0 rgb(0 0 0 / 30%);
+    font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+}
+
+h1 {
+    display: grid;
+    place-items: center;
+    height: 44px;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+}
+
+main {
+    flex: 1;
+}
+
+.chat-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.chat-list li {
+    box-shadow: 0 0.5px 0 rgb(0 0 0 / 30%);
+}
+
+.chat {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+    min-height: 100px;
+    padding: 17px 16px 19px;
+    text-align: left;
+}
+
+.chat-list li:first-child .chat {
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+
+.avatar {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.chat-content {
+    display: grid;
+    gap: 6px;
+    min-width: 0;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.chat-name {
+    font-weight: 700;
+}
+
+.chat-message {
+    font-weight: 400;
+}
+
+.bottom-space {
+    flex-shrink: 0;
+    height: 83px;
+}
+
+@media (hover: hover) {
+    .chat:hover {
+        background: #f7f7f7;
+    }
+}
+
+button:active {
+    background: #efefef;
+}
